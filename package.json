@@ -37,13 +37,15 @@
 	"author": "",
 	"dependencies": {
 		"@babel/runtime": "^7.7.7",
+		"@taro-hooks/plugin-react": "^2.0.7",
 		"@tarojs/components": "3.6.19",
 		"@tarojs/plugin-framework-react": "3.6.19",
 		"@tarojs/react": "3.6.19",
 		"@tarojs/runtime": "3.6.19",
 		"@tarojs/taro": "3.6.19",
 		"react": "^17.0.0",
-		"react-dom": "^17.0.0"
+		"react-dom": "^17.0.0",
+		"taro-hooks": "^2.0.7"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.8.0",

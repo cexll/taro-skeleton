@@ -15,7 +15,7 @@ const config = {
       ['@dcasia/mini-program-tailwind-webpack-plugin/dist/taro', {
         enableRpx: true,
         enableDebugLog: true
-      }]
+      }], '@taro-hooks/plugin-react'
   ],
   defineConstants: {
   },

@@ -1503,6 +1503,50 @@
     pirates "^4.0.1"
     source-map-support "^0.5.13"
 
+"@taro-hooks/ahooks@2.0.7", "@taro-hooks/ahooks@^2.0.7":
+  version "2.0.7"
+  resolved "https://registry.npmmirror.com/@taro-hooks/ahooks/-/ahooks-2.0.7.tgz#4798f4ea08085a35a790f5689fa97d0a85968447"
+  integrity sha512-UwUwTnUcKknydyR0Afvg8ID9/TvSNv32jbsf5gt+114g/Dhw8F6eE6/yFAoZSqlfOm7/FknSaP5nPjmptvWgQw==
+  dependencies:
+    "@taro-hooks/shared" "2.0.7"
+    lodash-wechat "^1.0.0"
+
+"@taro-hooks/blueimp-canvas-to-blob@2.0.7":
+  version "2.0.7"
+  resolved "https://registry.npmmirror.com/@taro-hooks/blueimp-canvas-to-blob/-/blueimp-canvas-to-blob-2.0.7.tgz#d43f211510d188836a81312c782dff6dfb9645c2"
+  integrity sha512-AuuPd4+2QdxhrduCtlgAXNTXrTPNCZB17Z66rdvFPlzyJojX36rcF07t+kGZA51eJupOpZGLlSvyUpLm+jpO2Q==
+
+"@taro-hooks/compressorjs@2.0.7":
+  version "2.0.7"
+  resolved "https://registry.npmmirror.com/@taro-hooks/compressorjs/-/compressorjs-2.0.7.tgz#a377e9c2a24cba2ea45d0a400ebac3b83a1a526a"
+  integrity sha512-ryh6BxmWS1BBAW/DsLZ9haBXu7ekqZ7VLTUrnpaiLaauIMxinjjNSui3aPPEiPT7Ooy+KaXJkAzGQR7mWK+7Ag==
+  dependencies:
+    "@taro-hooks/blueimp-canvas-to-blob" "2.0.7"
+    is-blob "^2.1.0"
+
+"@taro-hooks/plugin-react@^2.0.7":
+  version "2.0.7"
+  resolved "https://registry.npmmirror.com/@taro-hooks/plugin-react/-/plugin-react-2.0.7.tgz#8394f7bdbaf72eacfb0eb54ae019faa6372a5843"
+  integrity sha512-Z9GijEhZeZTRWbtY6VUffy5rnhYX8xEboYHoUpzbw1zIkzdEOXbOXeWgbAsxXIoDwyHKa0/kh+anyJTLNqxLtQ==
+  dependencies:
+    acorn "^8.8.2"
+    acorn-walk "^8.2.0"
+
+"@taro-hooks/shared@2.0.7":
+  version "2.0.7"
+  resolved "https://registry.npmmirror.com/@taro-hooks/shared/-/shared-2.0.7.tgz#e23f10ed6e5f534b8994c4ae8607315c1421e9d8"
+  integrity sha512-HLocqjkqS8LqpLoYSAbVnaqre0R5sScxXbgeNeDW6Qqz5d7Zvd7jMuI1ABaL9NQTAMp2grZGVfG3ssO6CFvZ9A==
+
+"@taro-hooks/use-request@2.0.7":
+  version "2.0.7"
+  resolved "https://registry.npmmirror.com/@taro-hooks/use-request/-/use-request-2.0.7.tgz#c4ec72e3c117df50d5e77b149e9d46e949959116"
+  integrity sha512-900C3KwduxBZW9wgc8mgs/8L0QSHdpt/wRuVDou3oWMr68CJToE8V3ma8KbHXKQBhC6iextaSu9XfCWwsmUy1A==
+  dependencies:
+    "@taro-hooks/ahooks" "2.0.7"
+    "@taro-hooks/shared" "2.0.7"
+    lodash-wechat "^1.0.0"
+    taro-hooks "2.0.7"
+
 "@tarojs/api@3.6.19":
   version "3.6.19"
   resolved "https://registry.npmmirror.com/@tarojs/api/-/api-3.6.19.tgz#a8e301c828c5622ed687503bd93ab80d1d114f30"
@@ -5623,6 +5667,11 @@ is-binary-path@~2.1.0:
   dependencies:
     binary-extensions "^2.0.0"
 
+is-blob@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.npmmirror.com/is-blob/-/is-blob-2.1.0.tgz#e36cd82c90653f1e1b930f11baf9c64216a05385"
+  integrity sha512-SZ/fTft5eUhQM6oF/ZaASFDEdbFVe89Imltn9uZr03wdKMcWNVYSMjQPFtg05QuNkt5l5c135ElvXEQG0rk4tw==
+
 is-boolean-object@^1.1.0:
   version "1.1.2"
   resolved "https://registry.npmjs.org/is-boolean-object/-/is-boolean-object-1.1.2.tgz"
@@ -6214,6 +6263,11 @@ lodash-es@4.17.21:
   version "4.17.21"
   resolved "https://registry.npmmirror.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
   integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
+
+lodash-wechat@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/lodash-wechat/-/lodash-wechat-1.0.0.tgz#d273d6654a85063cd4af13189987885b8cc44764"
+  integrity sha512-QoUc/QbEXNu1PsoWXRehZnfSZf5VznHRth5iUteq4qdM9myuKlhGIxSrFl9vhtDfqyUVuprPxXFbUGZ3oGM0JQ==
 
 lodash.clonedeep@^4.5.0:
   version "4.5.0"
@@ -7802,6 +7856,11 @@ querystring@0.2.0:
   resolved "https://registry.npmjs.org/querystring/-/querystring-0.2.0.tgz"
   integrity sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
 
+querystring@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.npmmirror.com/querystring/-/querystring-0.2.1.tgz#40d77615bb09d16902a85c3e38aa8b5ed761c2dd"
+  integrity sha512-wkvS7mL/JMugcup3/rMitHmd9ecIGd2lhFhK9N3UUQ450h66d1r3Y9nvXzQAW1Lq+wyx61k/1pfKS5KuKiyEbg==
+
 querystringify@^2.1.1:
   version "2.2.0"
   resolved "https://registry.npmjs.org/querystringify/-/querystringify-2.2.0.tgz"
@@ -9135,6 +9194,18 @@ tar@^6.0.2:
     minizlib "^2.1.1"
     mkdirp "^1.0.3"
     yallist "^4.0.0"
+
+taro-hooks@2.0.7, taro-hooks@^2.0.7:
+  version "2.0.7"
+  resolved "https://registry.npmmirror.com/taro-hooks/-/taro-hooks-2.0.7.tgz#86fee428335d9b338655cfe5e2c5510adaef15e2"
+  integrity sha512-TgtveKx6KxFDKZDfWt6SPB/pxrqUsZmNXOhQBMtL17RLz2Q9X5d/rrDK9Nm/NwWMrbFt+Cmap7wuFJOsAL8/uw==
+  dependencies:
+    "@taro-hooks/ahooks" "^2.0.7"
+    "@taro-hooks/compressorjs" "2.0.7"
+    "@taro-hooks/shared" "2.0.7"
+    "@taro-hooks/use-request" "2.0.7"
+    lodash-wechat "^1.0.0"
+    querystring "^0.2.1"
 
 terser-webpack-plugin@^1.4.3:
   version "1.4.5"

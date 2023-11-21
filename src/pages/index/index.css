@@ -1,3 +1,11 @@
 .index {
     @apply pt-[10vh];
 }
+
+.button {
+  display         : block;
+  width           : 100%;
+  background-color: transparent;
+  border-radius   : 2px;
+  margin-top      : 20px;
+}

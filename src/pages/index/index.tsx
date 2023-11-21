@@ -1,24 +1,23 @@
 import { Component } from 'react'
-import { View, Text } from '@tarojs/components'
+import { View, Text, Button } from '@tarojs/components'
+import { useEnv, useNavigationBar } from "taro-hooks";
 import './index.css'
 
-export default class Index extends Component {
+const Index = () => {
+  const env = useEnv();
+  const { setTitle } = useNavigationBar({ title: "Taro Hooks" });
 
-  componentWillMount() { }
 
-  componentDidMount() { }
+  return (
+    <View className={`index bg-[#b5b5b5] h-screen pl-7.5 ${true ? 'text-[50px]' : ''}`}>
+      <Text className={`${'none'} font-bold text-[#ffffff]`}>Hello world!</Text>
+      <Text>{env}</Text>
+      <Button className="button" onClick={() => setTitle("Taro Hooks Nice!")}>
+        设置标题
+      </Button>
+    </View>
+  );
+};
 
-  componentWillUnmount() { }
+export default Index;
 
-  componentDidShow() { }
-
-  componentDidHide() { }
-
-  render() {
-    return (
-      <View className={`index bg-[#b5b5b5] h-screen pl-7.5 ${true ? 'text-[50px]' : ''}`}>
-        <Text className={`${'none'} font-bold text-[#ffffff]`}>Hello world!</Text>
-      </View>
-    )
-  }
-}
